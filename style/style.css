@@ -79,11 +79,18 @@ body{
 
 }
 
+div .btn-aim{
+    display: block;
+    margin: 20px auto;
+    color: #7900f1;
+    font-weight: 600;
+}
+
 .banner-img img{
     height : 500px;
 }
 
-.banner-title a:hover{
+.banner-title .btn-sv:hover{
     background-color: #fff;
     color: #000;
     transition: 300ms;
