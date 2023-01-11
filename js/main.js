@@ -110,3 +110,19 @@ function generateRandomPlace(){
     
     
 }
+
+//SCROLL REVEAL
+ScrollReveal().reveal(".header-nav");
+ScrollReveal().reveal(".wrapper");
+ScrollReveal().reveal(".about-us");
+ScrollReveal().reveal(".about-us");
+ScrollReveal().reveal(".about-us__card")
+ScrollReveal().reveal(".about-us__video")
+ScrollReveal().reveal(".player__card", {delay : 200});
+
+//FRASE DELAY
+ScrollReveal().reveal(".damare__text", {delay : 300})
+ScrollReveal().reveal(".delay", {delay : 5000})
+
+
+
