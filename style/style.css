@@ -59,6 +59,7 @@ body{
 }
 
 
+
 .banner-title h2{
     color:#fff;
     font-size: 60px;
@@ -79,12 +80,21 @@ body{
 
 }
 
-div .btn-aim{
+
+.btn-aim{
     display: block;
-    margin: 20px auto;
-    color: #7900f1;
+    margin-top: 20px;
+}
+
+.btn-aim a{
+    color: #eeedef;
     font-weight: 600;
 }
+
+.btn-aim a:hover{
+    color: #f11000;
+}
+
 
 .banner-img img{
     height : 500px;
@@ -306,19 +316,18 @@ main{
     box-shadow: 1px 2px 10px rgba(28,27,31,.5);
 }
 
-
 /* PLAYERS */
+
+
 .player__card{
     display: flex;
-    flex-direction: row;
     align-items: center;
     height: 65px;
     width: 90%;
-    align-items: center;
     padding: 5px;
     background: #eeedef;
     margin: 15px auto;
-   position: relative;
+    position: relative;
 }
 
 .player__card a{
@@ -406,8 +415,8 @@ main{
     margin: .5px;
     transition: 100ms;
     position: relative;
-    top: 40%;
-    left: 50%;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
 }
 
 .pointer-select{

@@ -1,8 +1,5 @@
 const d = document;
 
-
-
-
 //AIM TRAINING
 const $pointer = d.querySelector(".aim__training-pointer"),
     {height, width} = d.querySelector(".aim__training-box").getBoundingClientRect(),
@@ -17,8 +14,6 @@ let count = 0;
 let stopIt = false;
 
 d.addEventListener('click', e => {
-
-
     //EMPEZAR EL TEST DE AIM
     if(e.target.matches(".start")){
         $btnStart.disabled = true;
@@ -63,7 +58,6 @@ d.addEventListener('click', e => {
         stopIt = true;
     }
 
-
     //CONTAR LOS HITS Y/O FALLOS REALIZADO EN EL TEST DE AIM
     if($btnStart.disabled){
         if(e.target.matches(".aim__training-pointer")){
@@ -72,12 +66,6 @@ d.addEventListener('click', e => {
             countFailed++
         }
     }
-
-    
-
-
-    
-
 
 //SELECCIONAR EL NIVEL DE DIFICULTAD DEL AIM
     if(e.target.matches(".hard")){
@@ -90,11 +78,6 @@ d.addEventListener('click', e => {
         $pointer.style.height = "90px";
         $pointer.style.width = "90px"
     }
-
-
-    
-
-
 })
 
 function getRandomNumber( min, max ) {
@@ -123,6 +106,5 @@ ScrollReveal().reveal(".player__card", {delay : 200});
 //FRASE DELAY
 ScrollReveal().reveal(".damare__text", {delay : 300})
 ScrollReveal().reveal(".delay", {delay : 5000})
-
 
 
