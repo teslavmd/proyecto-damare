@@ -252,6 +252,7 @@ main{
 .about-us__text h3{
     padding: 40px;
     background: #fff;
+    line-height: 1.8rem;
 }
 
 .about-us__aside{
@@ -266,6 +267,7 @@ main{
     height: 270px;
     position: relative;
     margin-bottom: 50px;
+
 }
 
 .about-us__card img{
